@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,112 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+.Navbar{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content:center ;
+  background-color: rgb(153, 255, 0);
+  position: fixed;
+}
+.nav{
+  background-color: rgb(153, 255, 0);
+  /* position: fixed; */
+}
+.Navbar .nav-item{
+  list-style-type: none;
+  margin: 5px;
+  padding: 5px;
+}
+.Navbar .nav-item .Link{
+ text-decoration: none;
+ color: rgb(0, 0, 0);
+ font-size: 1rem;
+ margin: 5px;
+ padding: 5px;
+}
+.Navbar .nav-item :hover{
+  transition: 1s;
+}
+#About{
+  padding: 10px;
+  margin: 5px;
+}
+.margin{
+  padding: 50px;
+}
+.img{
+  width: 50%;
+  background-color: transparent;
+  margin: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+.logo{
+  color: rebeccapurple;
+  width: 50px;
+  margin: 5px;
+  cursor: pointer;
+}
+.projects{
+  background-color: rgb(229, 245, 245);
+  margin: 5px;
+  padding: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.projects-item{
+  background-color: rgb(220, 255, 220);
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+.projects-item:hover{
+  background-color: rgb(222, 255, 172);
+  margin: 2px;
+}
+.btn{
+  color: orange;
+  background-color: aqua;
+  width: 100%;
+}
+.projects-item:hover .btn:hover{
+  background-color: rgb(190, 255, 93);
+}
+.row{
+  background-color:rgb(220, 255, 220);
+  padding: 15px;
+  margin: 5px;
+}
+
+.client{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.client-rev{
+  margin: 5px;
+  padding: 5px;
+  background-color:rgb(220, 255, 220);
+  cursor: pointer;
+
+}
+.client-rev img{
+  background-color: rgb(189, 253, 189);
+  border-radius: 50%;
+  margin: 5px;
+  padding: 5px;
+}
+.client-rev:hover{
+  background-color: rgb(222, 255, 172);
+  margin: 2px;
+  padding: 3px;
+}
+.Footer{
+  background-color :rgb(0, 14, 0) ;
+  color: orange;
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
 }
