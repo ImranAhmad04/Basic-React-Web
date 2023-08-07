@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/Basic-React-Web/static/css/main.71eb7a84.css",
-    "main.js": "/Basic-React-Web/static/js/main.3613a500.js",
+    "main.css": "/Basic-React-Web/static/css/main.8fe9b84d.css",
+    "main.js": "/Basic-React-Web/static/js/main.63431113.js",
     "static/js/787.28cb0dcd.chunk.js": "/Basic-React-Web/static/js/787.28cb0dcd.chunk.js",
+    "static/media/emruz.jpg": "/Basic-React-Web/static/media/emruz.7a3bd688eac6a74d1e18.jpg",
+    "static/media/img1.jpg": "/Basic-React-Web/static/media/img1.9ebb966c1d20939bc7f8.jpg",
+    "static/media/img2.jpg": "/Basic-React-Web/static/media/img2.6876f2f78f89d7c078f5.jpg",
     "index.html": "/Basic-React-Web/index.html",
-    "main.71eb7a84.css.map": "/Basic-React-Web/static/css/main.71eb7a84.css.map",
-    "main.3613a500.js.map": "/Basic-React-Web/static/js/main.3613a500.js.map",
+    "main.8fe9b84d.css.map": "/Basic-React-Web/static/css/main.8fe9b84d.css.map",
+    "main.63431113.js.map": "/Basic-React-Web/static/js/main.63431113.js.map",
     "787.28cb0dcd.chunk.js.map": "/Basic-React-Web/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.71eb7a84.css",
-    "static/js/main.3613a500.js"
+    "static/css/main.8fe9b84d.css",
+    "static/js/main.63431113.js"
   ]
 }
