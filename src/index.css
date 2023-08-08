@@ -16,6 +16,7 @@ code {
   display: flex;
   align-items: center;
   justify-content:center ;
+  text-align: center;
   background-color: rgb(153, 255, 0);
   position: fixed;
 }
@@ -81,7 +82,7 @@ code {
   background-color: aqua;
   width: 100%;
 }
-.projects-item:hover .btn:hover{
+.projects-item:hover .btn{
   background-color: rgb(190, 255, 93);
 }
 .row{
